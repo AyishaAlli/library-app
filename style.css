@@ -1,0 +1,16 @@
+#newBookForm{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 300px;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+#radioReadYet{
+    display: flex;
+    justify-content: center;
+    
+}

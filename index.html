@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <h1 class="title">Library</h1>
+    <button id="addBookBtn">Add Book</button>
+    <form action="" id="newBookForm">
+      <label for="bookTitle">Title</label>
+      <input type="text" name="bookTitle" required />
+      <br />
+      <label for="bookAuthor">Author</label>
+      <input type="text" name="bookAuthor" required />
+      <br />
+      <label for="totalPages">Total Pages</label>
+      <input type="number" name="totalPages" required />
+      <br>
+<div>
+    <label for="readYet">Have you read this book yet?</label>
+    <div id="radioReadYet">
+        <input type="radio" name="readYet" id="yes" value="Yes">
+      <label for="yes">Yes</label>
+      <input type="radio" name="readYet" id="no" value="No">
+      <label for="no">No</label>
+    </div>
+      
+</div>
+      
+      <br />
+      <button id="addBtn">ADD</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
